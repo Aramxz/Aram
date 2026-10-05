@@ -38,6 +38,8 @@ Capturas reales de la versión local correspondiente al sitio publicado. Las im�
 
 ## Criterio visual
 
+Movimiento reactivo: cursor y scroll pueden orientar partículas o desplegar ondas; en páginas adecuadas, las palabras reciben transiciones suaves al pasar el cursor. Cada efecto conserva lectura, controles accesibles y una alternativa sin movimiento.
+
 Portadas limpias: título sobre la animación, navegación discreta y controles útiles. Sin líneas divisorias decorativas bajo el menú, etiquetas superiores de relleno, coordenadas ficticias ni numeraciones innecesarias.
 
 **Tipografía nítida, composición precisa y efectos con propósito.** Aram evita tipografía neón, glow decorativo, gradientes arbitrarios y combinaciones repetitivas de tarjetas de cristal, halos y sombras exageradas. La identidad nace del contenido, la tipografía y la dirección de arte.
@@ -143,7 +145,7 @@ Conserva el scroll nativo y prepara una versión sin desplazamientos
 para quienes prefieren movimiento reducido.
 ```
 
-## Versión actual · 0.4.5
+## Versión actual · 0.4.6
 
 - Dirección editorial premium como punto de partida ajustable.
 - Criterios de jerarquía, composición, contenido y recursos visuales.

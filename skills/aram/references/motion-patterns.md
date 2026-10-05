@@ -33,3 +33,11 @@ Son alternativas, no plantillas obligatorias. El logo entra una vez sin bloquear
 - Comprueba scroll inverso, resize, navegación, clics rápidos y una pantalla móvil. Si declaras mejoras de rendimiento, mide antes/después bajo las mismas condiciones y registra dispositivo, escena y herramienta. No prometas fps ni puntuaciones sin medición.
 
 Documentación: [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/), [DrawSVG](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/), [MorphSVG](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/), [SplitText](https://gsap.com/docs/v3/Plugins/SplitText/), [Flip](https://gsap.com/docs/v3/Plugins/Flip/).
+
+## respuesta al visitante
+
+El movimiento debe invitar a explorar: una escena futurista puede orientar sus partículas con el cursor y desplegar una onda gradualmente al bajar. Usa rangos pequeños e interpolación suave; conserva el scroll nativo, permite volver atrás y no secuestres el puntero. Calcula dimensiones fuera de los eventos de movimiento y procesa los objetivos en un único bucle de render.
+
+En páginas donde aporte carácter, revela, desplaza unos píxeles o cambia suavemente el tono de palabras al pasar el cursor. Puedes alternar palabras semánticamente equivalentes en un acento editorial, reservando espacio para evitar saltos. No cambies enlaces, precios, instrucciones ni mensajes esenciales. No combines todos los efectos en cada página, ni cambies la tipografía para animar.
+
+Aplica hover únicamente donde exista puntero preciso. Los controles interactivos deben responder también a foco y teclado; no conviertas texto decorativo en un control enfocable. En táctil conserva texto y acciones sin requerir hover. Con pausa manual o movimiento reducido, detén también el movimiento decorativo ligado al cursor y scroll y muestra un estado legible.
