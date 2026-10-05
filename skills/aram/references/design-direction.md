@@ -20,9 +20,9 @@ Estas direcciones son puntos de partida; no vincules “premium” obligatoriame
 
 - **Jerarquía:** distingue título, argumento, evidencia y acción; permite que una pieza domine la escena.
 - **Tipografía:** establece roles y escala fluida. Valida los saltos de línea con el contenido real y zoom. No dependas de saltos manuales que rompan móvil.
-- **Títulos:** usa una familia consistente y estilo recto dentro de cada título. Evita el cambio de sans a serif/cursiva en una palabra por rutina. Reserva cursivas para énfasis editorial puntual o una petición explícita.
+- **Títulos:** centra por defecto el título principal y su bloque en el eje horizontal de la portada; limita el ancho para equilibrar sus líneas y comprueba escritorio y móvil. No fuerces centrado vertical de toda la pantalla ni extiendas esta preferencia a párrafos largos, tablas o formularios. Usa una familia consistente y estilo recto dentro de cada título. Evita el cambio de sans a serif/cursiva en una palabra por rutina. Reserva cursivas para énfasis editorial puntual o una petición explícita.
 - **Retícula:** alinea textos, bordes e imágenes con intención. Usa espacios consistentes y cambia de composición en pantallas pequeñas cuando sea necesario.
-- **Color:** define superficie, texto, acento y estados semánticos. Comprueba contraste en las combinaciones realmente usadas.
+- **Color:** evita la combinación automática de lavanda, rosa empolvado, menta y melocotón pastel. Elige neutros definidos y uno o dos acentos con carácter ligados al producto, sin neón ni saturación indiscriminada. Los tonos claros pueden ser superficies de apoyo, no una paleta genérica de relleno. Respeta colores de marca explícitos. Define superficie, texto, acento y estados semánticos. Comprueba contraste en las combinaciones realmente usadas.
 - **Recursos:** selecciona imágenes pertinentes, recortes consistentes y licencias adecuadas. Si falta un recurso central, usa un sustituto honesto y comunícalo.
 - **Forma:** radios, bordes y sombras deben apoyar el carácter del sitio, no aplicarse a todos los bloques por costumbre.
 - **Contenido:** sustituye afirmaciones vagas por beneficios concretos, evidencia disponible y acciones comprensibles.

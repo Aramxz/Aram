@@ -4,6 +4,8 @@ Aplica las comprobaciones relevantes para lo modificado. No conviertas un ajuste
 
 ## Inspección visual y funcional
 
+- Verifica que el título principal tenga una composición centrada en escritorio y móvil, salvo dirección explícita distinta, y que la paleta no recurra a pasteles genéricos sin relación con la marca.
+
 - Comprueba copy original en minúsculas y una firma de movimiento adecuada al proyecto. En galerías, verifica que los efectos difieran realmente en mecanismo y composición. No declares optimización medida sin evidencia.
 - Revisa el acabado: tipografía nítida, sin neón ni glow decorativo; colores, sombras y movimiento con una función clara. Corrige composición y jerarquía antes de añadir efectos.
 - Comprueba la entrada del logo, su estado estático con movimiento reducido y que no se repita al interactuar. Revisa títulos sin mezclas gratuitas de fuentes o cursivas. En fondos tecnológicos, prueba pausa y cambio de vista; en redes sociales, valida que el color conserve legibilidad.

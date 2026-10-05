@@ -4,7 +4,7 @@ description: Diseña y pule sitios web con dirección visual editorial, jerarqu�
 license: MIT
 metadata:
   author: Aramxz
-  version: "0.4.0"
+  version: "0.4.1"
 ---
 
 # Aram — diseño web con intención
@@ -29,6 +29,9 @@ Como punto de partida para un proyecto sin identidad, usa **editorial premium**:
 6. Revisa el resultado real en navegador y corrige problemas observables. Usa [revisión de entrega](references/quality-review.md) según el alcance. Informa qué verificaste y qué no pudiste comprobar.
 
 ## Criterios de Aram
+
+- Prioriza el título principal centrado horizontalmente en la portada, con su bloque cerca del eje central de la composición, tanto en escritorio como en móvil. No uses por rutina un hero con título pegado a la izquierda. Conserva alineación de lectura en párrafos largos, formularios y datos.
+- Evita paletas pastel genéricas por defecto: lavanda, rosa empolvado, menta y melocotón combinados sin identidad. Prefiere neutros definidos y acentos con carácter, contraste legible y relación con la marca; no sustituyas pastel por neón. Respeta una paleta de marca o petición explícita.
 
 - Prioriza minúsculas en el texto original de la interfaz: títulos, navegación, botones y etiquetas. No fuerces `text-transform: lowercase` global ni alteres nombres legales, marcas con grafía obligatoria, siglas técnicas, código, contraseñas o contenido aportado por usuarios.
 - Diseña una firma de movimiento diferente para cada proyecto; no reutilices la misma entrada de logo y fade en todas las categorías. Selecciona scroll, SVG, texto o interacciones según su función y presupuesto. Consulta [movimiento por categoría](references/motion-patterns.md) y [referencias de inspiración](references/inspiration.md).

@@ -26,6 +26,8 @@ Las capturas muestran el ejemplo real; son una referencia de calidad, no una pla
 
 **Tipografía nítida, composición precisa y efectos con propósito.** Aram evita tipografía neón, glow decorativo, gradientes arbitrarios y combinaciones repetitivas de tarjetas de cristal, halos y sombras exageradas. La identidad nace del contenido, la tipografía y la dirección de arte.
 
+El título principal se prioriza centrado en la portada, también en móvil. Se evitan paletas pastel genéricas de lavanda, rosa empolvado, menta y melocotón: la dirección de color parte de neutros definidos y acentos propios de cada marca.
+
 Los colores intensos siguen teniendo lugar: un acento naranja o azul bien utilizado no equivale a una estética neón.
 
 ## Instalar
@@ -117,7 +119,7 @@ Conserva el scroll nativo y prepara una versión sin desplazamientos
 para quienes prefieren movimiento reducido.
 ```
 
-## Versión actual · 0.4.0
+## Versión actual · 0.4.1
 
 - Dirección editorial premium como punto de partida ajustable.
 - Criterios de jerarquía, composición, contenido y recursos visuales.

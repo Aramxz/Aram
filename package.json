@@ -1,14 +1,30 @@
 {
   "name": "aram-web-skill",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "aram by Aramxz — web design and motion skill for Codex and Claude Code",
   "type": "module",
-  "bin": { "aram": "bin/aram.mjs" },
-  "files": ["bin", "skills/aram", "README.md", "LICENSE"],
-  "engines": { "node": ">=20" },
-  "dependencies": { "skills": "1.7.0" },
-  "scripts": { "test": "node --test tests/installer.test.mjs" },
-  "repository": { "type": "git", "url": "https://github.com/Aramxz/Aram.git" },
+  "bin": {
+    "aram": "bin/aram.mjs"
+  },
+  "files": [
+    "bin",
+    "skills/aram",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "skills": "1.7.0"
+  },
+  "scripts": {
+    "test": "node --test tests/installer.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aramxz/Aram.git"
+  },
   "author": "Aramxz",
   "license": "MIT"
 }
