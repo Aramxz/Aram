@@ -4,6 +4,7 @@ Aplica las comprobaciones relevantes para lo modificado. No conviertas un ajuste
 
 ## Inspección visual y funcional
 
+- Revisa el acabado: tipografía nítida, sin neón ni glow decorativo; colores, sombras y movimiento con una función clara. Corrige composición y jerarquía antes de añadir efectos.
 - Revisa la página real a un ancho móvil y uno de escritorio, y cerca de los breakpoints modificados. Busca desbordamiento, recortes, saltos tipográficos y espacios incoherentes.
 - Comprueba que la acción principal, enlaces, menú y controles involucrados funcionan. Incluye estados vacíos, carga o error si forman parte del cambio.
 - Usa teclado y foco visible; revisa que el orden de lectura sea coherente y que overlays no dejen el foco perdido.

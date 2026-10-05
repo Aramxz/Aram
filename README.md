@@ -4,6 +4,30 @@ Skill de **Aramxz** para crear y pulir páginas con dirección visual propia, ti
 
 Combina principios de [LottieFiles motion-design-skill](https://github.com/LottieFiles/motion-design-skill) con prácticas de [GSAP skills](https://github.com/greensock/gsap-skills), y añade dirección de arte, adaptación móvil y revisión del resultado. Es una síntesis curada, no una copia completa ni un producto oficial de esas organizaciones.
 
+## Así se ve Aram
+
+**Aram Studio** es un ejemplo realizado con esta skill: composición editorial, tipografía protagonista, acentos naranja, arte original y movimiento con GSAP. Los proyectos mostrados son ficticios.
+
+### Escritorio
+
+![Aram Studio: portada editorial en escritorio](docs/screenshots/aram-studio-desktop.jpg)
+
+### Proyectos
+
+![Aram Studio: proyecto conceptual Forma](docs/screenshots/aram-studio-projects.jpg)
+
+### Móvil
+
+<img src="docs/screenshots/aram-studio-mobile.jpg" alt="Aram Studio: diseño adaptado a móvil" width="390">
+
+Las capturas muestran el ejemplo real; son una referencia de calidad, no una plantilla obligatoria para todas las páginas.
+
+## Criterio visual
+
+**Tipografía nítida, composición precisa y efectos con propósito.** Aram evita tipografía neón, glow decorativo, gradientes arbitrarios y combinaciones repetitivas de tarjetas de cristal, halos y sombras exageradas. La identidad nace del contenido, la tipografía y la dirección de arte.
+
+Los colores intensos siguen teniendo lugar: un acento naranja o azul bien utilizado no equivale a una estética neón.
+
 ## Instalar
 
 ```bash
@@ -38,13 +62,14 @@ Conserva el scroll nativo y prepara una versión sin desplazamientos
 para quienes prefieren movimiento reducido.
 ```
 
-## Primera versión · 0.1.0
+## Versión actual · 0.2.0
 
 - Dirección editorial premium como punto de partida ajustable.
 - Criterios de jerarquía, composición, contenido y recursos visuales.
 - Movimiento por propósito; CSS, GSAP y Lottie según necesidad.
 - Ciclo de vida, limpieza, responsive y ScrollTrigger.
 - Revisión de interacción, móvil, teclado y movimiento reducido.
+- Criterios explícitos para evitar tipografía neón y decoración genérica.
 
 La skill aporta instrucciones reutilizables; no instala automáticamente GSAP, no incluye una web prediseñada y no garantiza puntuaciones de rendimiento. La evolución se basa en páginas reales y feedback concreto.
 

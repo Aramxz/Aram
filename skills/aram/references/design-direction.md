@@ -27,3 +27,13 @@ Implementa tokens ajustables para color, espaciado, tipografía y movimiento seg
 ## Adaptación móvil
 
 Replantea el orden cuando mejore la lectura; preserva un orden DOM comprensible. Evita texto fuera de pantalla, imágenes deformadas y controles que solo se descubren con hover. Las escenas fijas o horizontales pueden convertirse en bloques verticales. Mantén cómodas las áreas táctiles y visibles los estados de foco.
+
+## Acabado visual sin efectos de relleno
+
+La preferencia de Aram es una dirección de arte cuidada y tipografía nítida. Evita tipografía neón, texto luminoso, contornos fluorescentes y halos de color como recurso decorativo. Un acento intenso, como el naranja del ejemplo Aram Studio, puede aportar carácter sin convertirse en un efecto neón.
+
+No uses como atajo visual el conjunto de fondo oscuro, gradientes violeta/cian, orbes luminosos y tarjetas translúcidas repetidas. Evita también sombras profundas en cada bloque, bordes brillantes, emojis como identidad de marca y animaciones permanentes que compitan con la lectura. Un efecto aislado no determina la calidad: el problema es añadirlo sin propósito o repetir una estética ajena al contenido.
+
+Sustituye esos recursos por decisiones visibles: una familia tipográfica adecuada, pesos y tamaños bien relacionados, espacio preciso, alineaciones coherentes, fotografía o arte pertinente y contraste de escala. No añadas efectos para compensar una composición débil.
+
+Antes de entregar, revisa: ¿el título se lee con claridad?, ¿cada color tiene una función?, ¿las secciones expresan el contenido real?, ¿la página conserva identidad sin resplandores ni movimiento? Corrige las causas concretas antes de añadir decoración. Si el usuario pide explícitamente otra dirección, respeta ese encargo y mantén legibilidad y coherencia.

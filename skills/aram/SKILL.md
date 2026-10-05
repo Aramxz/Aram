@@ -4,7 +4,7 @@ description: Diseña y pule sitios web con dirección visual editorial, jerarqu�
 license: MIT
 metadata:
   author: Aramxz
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Aram — diseño web con intención
@@ -30,6 +30,8 @@ Como punto de partida para un proyecto sin identidad, usa **editorial premium**:
 
 ## Criterios de Aram
 
+- Evita tipografía neón, letras con glow y resplandores decorativos. Prioriza formas tipográficas nítidas, buena composición y materiales visuales cuidados. No adoptes una estética futurista genérica por defecto.
+- Evita acabados de plantilla: gradientes multicolor arbitrarios, tarjetas de cristal repetidas, sombras exageradas y efectos acumulados sin relación con la marca. Usa los criterios concretos de [dirección visual](references/design-direction.md#acabado-visual-sin-efectos-de-relleno) para revisar el resultado.
 - El diseño debe tener una decisión reconocible: tipografía, fotografía, ilustración, composición o tratamiento de producto. No sustituyas identidad por una acumulación de efectos.
 - El contenido define las secciones. Evita repetir siempre hero, tres tarjetas y CTA cuando la historia requiere otra estructura.
 - Mantén legibles el mensaje, la navegación y la acción principal desde el primer estado. No bloquees la visita con un preloader decorativo.
