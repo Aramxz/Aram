@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { resolve, dirname } from 'node:path';
 import { createRequire } from 'node:module';
 import { realpathSync } from 'node:fs';
+import { printBanner } from './banner.mjs';
 
 export function parseOptions(args) {
   const options = { agent: null, scope: null, dryRun: false, help: false };
@@ -28,7 +29,7 @@ export function installArgs(options, source) {
 }
 
 async function main() {
-  console.log('\n  aram\n  diseño web + movimiento\n  creado por Aramxz\n');
+  printBanner();
   const options = parseOptions(process.argv.slice(2));
   if (options.help) {
     console.log('uso: aram [--agent codex|claude-code|both] [--scope global|project] [--dry-run]\nsin opciones: elige agente y alcance en el menú.\n--dry-run: muestra la operación sin instalar.\nrequiere node.js 20 o posterior.');

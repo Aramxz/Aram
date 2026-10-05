@@ -40,10 +40,16 @@ Requiere Node.js 20 o posterior y Git. Ejecuta en una terminal interactiva:
 npx --yes --package=github:Aramxz/Aram aram
 ```
 
-Verás tu autor y podrás elegir agente y alcance:
+Verás el logo ARAM en letras de bloques con sombra y tonos grises, tu autor y el menú para elegir agente y alcance. Respeta `NO_COLOR` y se adapta a terminales estrechas:
 
 ```text
-aram
+ █████╗ ██████╗  █████╗ ███╗   ███╗
+██╔══██╗██╔══██╗██╔══██╗████╗ ████║
+███████║██████╔╝███████║██╔████╔██║
+██╔══██║██╔══██╗██╔══██║██║╚██╔╝██║
+██║  ██║██║  ██║██║  ██║██║ ╚═╝ ██║
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝
+
 diseño web + movimiento
 creado por Aramxz
 
@@ -119,7 +125,7 @@ Conserva el scroll nativo y prepara una versión sin desplazamientos
 para quienes prefieren movimiento reducido.
 ```
 
-## Versión actual · 0.4.1
+## Versión actual · 0.4.2
 
 - Dirección editorial premium como punto de partida ajustable.
 - Criterios de jerarquía, composición, contenido y recursos visuales.
