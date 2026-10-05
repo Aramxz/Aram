@@ -4,7 +4,7 @@ description: Diseña y pule sitios web con dirección visual editorial, jerarqu�
 license: MIT
 metadata:
   author: Aramxz
-  version: "0.4.6"
+  version: "0.5.0"
 ---
 
 # Aram — diseño web con intención
@@ -17,7 +17,7 @@ Inspecciona el proyecto, sus instrucciones, componentes, dependencias y recursos
 
 Identifica audiencia, acción principal y carácter de marca. Pregunta únicamente por información que cambie decisiones relevantes; si falta una preferencia estética, declara una dirección provisional y avanza. Usa el idioma del usuario para la conversación y el idioma del producto para su contenido.
 
-Como punto de partida para un proyecto sin identidad, usa **editorial premium**: tipografía protagonista, composición con contraste de escala, espacio generoso y movimiento contenido. Es una propuesta ajustable, no una plantilla obligatoria. Lee [dirección visual](references/design-direction.md) cuando debas definir o revisar la identidad.
+Como punto de partida para un proyecto sin identidad, prioriza **mono**, la referencia aprobada incluida en [plantilla e inspiración mono](references/mono-template.md), especialmente para páginas modernas, tecnológicas o creativas. Adapta su composición limpia al contenido y conserva requisitos y marcas existentes. Para encargos donde encaje mejor una dirección editorial, usa **editorial premium**: tipografía protagonista, composición con contraste de escala, espacio generoso y movimiento contenido. Es una propuesta ajustable, no una plantilla obligatoria. Lee [dirección visual](references/design-direction.md) cuando debas definir o revisar la identidad.
 
 ## De la idea a la página
 

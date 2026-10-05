@@ -24,6 +24,8 @@ Las capturas muestran el ejemplo real; son una referencia de calidad, no una pla
 
 ### futurista · mono
 
+La plantilla funcional está incluida en [skills/aram/assets/mono](skills/aram/assets/mono), con [instrucciones de adaptación](skills/aram/references/mono-template.md). Es la base preferida para páginas modernas, tecnológicas y creativas; en otros proyectos se adapta su limpieza visual al contenido. Incluye seguimiento local del cursor, transiciones suaves y densidad reducida en móvil.
+
 **mono** muestra la dirección futurista de aram: blanco y negro, título centrado delante de las partículas y una portada limpia, sin divisor bajo el menú ni etiquetas de relleno. El ejemplo permite alternar entre orbital, onda y retícula, y pausar el movimiento.
 
 #### estructura orbital
@@ -145,7 +147,7 @@ Conserva el scroll nativo y prepara una versión sin desplazamientos
 para quienes prefieren movimiento reducido.
 ```
 
-## Versión actual · 0.4.6
+## Versión actual · 0.5.0
 
 - Dirección editorial premium como punto de partida ajustable.
 - Criterios de jerarquía, composición, contenido y recursos visuales.

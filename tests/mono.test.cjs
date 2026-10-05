@@ -1,0 +1,15 @@
+const vm = require('node:vm'),fs=require('node:fs'),assert=require('node:assert/strict');
+let callbacks=new Map(),seq=0,fill=0,arcs=0,width=1000;const events={};
+const ctx={clearRect(){},setTransform(){},beginPath(){},moveTo(){},arc(){arcs++},fill(){fill++}};
+const element=(name)=>({dataset:{},setAttribute(){},addEventListener(k,fn){events[name+':'+k]=fn}});
+const canvas={...element('canvas'),getContext:()=>ctx,getBoundingClientRect:()=>({width,height:620,left:0,top:100})};
+const hero=element('hero'),pause=element('pause'),media={matches:false,addEventListener(k,fn){events.media=fn}};
+const doc={hidden:false,querySelector:s=>s==='canvas'?canvas:s==='.hero'?hero:pause,querySelectorAll:()=>[],addEventListener(k,fn){events[k]=fn}};
+const env={document:doc,matchMedia:()=>media,devicePixelRatio:2,scrollY:0,performance:{now:()=>0},requestAnimationFrame:fn=>{callbacks.set(++seq,fn);return seq},cancelAnimationFrame:id=>callbacks.delete(id),ResizeObserver:class{constructor(fn){events.resize=fn}observe(){}},IntersectionObserver:class{constructor(fn){events.intersect=fn}observe(){}}};
+vm.runInNewContext(fs.readFileSync('skills/aram/assets/mono/app.js','utf8'),env);
+assert.equal(callbacks.size,1);fill=arcs=0;let [id,fn]=callbacks.entries().next().value;callbacks.delete(id);fn(16.67);assert.equal(fill,8);assert.equal(arcs,720);assert.equal(callbacks.size,1);
+events['pause:click']();assert.equal(callbacks.size,0);events['pause:click']();assert.equal(callbacks.size,1);
+doc.hidden=true;events.visibilitychange();assert.equal(callbacks.size,0);doc.hidden=false;events.visibilitychange();assert.equal(callbacks.size,1);
+media.matches=true;events.media();assert.equal(callbacks.size,0);assert.equal(pause.disabled,true);
+width=390;fill=arcs=0;events.resize();assert.equal(arcs,420);assert.equal(fill,8);
+console.log('PASS: one animation loop; 8 fills; 720 desktop / 420 mobile particles; pause, hidden tab and reduced motion stop scheduling.');

@@ -1,6 +1,6 @@
 {
   "name": "aram-web-skill",
-  "version": "0.4.6",
+  "version": "0.5.0",
   "description": "aram by Aramxz — web design and motion skill for Codex and Claude Code",
   "type": "module",
   "bin": {
@@ -19,7 +19,7 @@
     "skills": "1.7.0"
   },
   "scripts": {
-    "test": "node --test tests/installer.test.mjs"
+    "test": "node --test tests/installer.test.mjs tests/mono.test.cjs"
   },
   "repository": {
     "type": "git",
