@@ -54,3 +54,11 @@ Antes de entregar, revisa: ¿el título se lee con claridad?, ¿cada color tiene
 **Redes sociales:** da más presencia al color en el fondo general, áreas de navegación, comunidad y superficies secundarias. Elige una paleta pequeña con roles definidos y conserva superficies de lectura con contraste suficiente. Evita que todos los elementos sean blancos sobre gris, pero no asignes un color arbitrario a cada tarjeta. Mantén coherencia entre escritorio y móvil.
 
 **Otros sitios:** conserva su identidad propia. No extiendas partículas tecnológicas ni fondos sociales multicolor a categorías sin relación. Las instrucciones explícitas del proyecto prevalecen.
+
+## Limpieza de la portada
+
+La referencia aprobada es una portada donde el título centrado y la animación de fondo comparten protagonismo, con navegación discreta y espacio libre. No añadas por rutina una línea horizontal entre menú y portada ni marcos que fragmenten esa escena.
+
+Omite etiquetas superiores como “materia digital · estudio experimental” cuando no explican el producto. Retira coordenadas ficticias, cruces decorativas, contadores de sección, créditos de implementación y nombres técnicos de la animación si solo aportan ruido. No sustituyas lo eliminado por otras etiquetas de relleno.
+
+Conserva el mensaje necesario para comprender el sitio y los controles útiles, especialmente pausa, navegación, foco visible y estados de interacción. Simplifica nombres y quita numeraciones de botones cuando el orden no tenga significado. Los separadores siguen siendo válidos en tablas, listas o grupos donde ayuden a leer; esta preferencia no exige eliminar todos los bordes del sitio. Respeta contenido obligatorio y una dirección explícita distinta.

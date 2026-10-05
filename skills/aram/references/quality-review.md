@@ -4,6 +4,8 @@ Aplica las comprobaciones relevantes para lo modificado. No conviertas un ajuste
 
 ## Inspección visual y funcional
 
+- Revisa la limpieza de la portada: sin divisor decorativo bajo el menú ni etiquetas superiores, coordenadas o numeraciones de relleno. El título comparte escena con la animación; los controles esenciales siguen visibles y accesibles.
+
 - En una dirección futurista, comprueba que dominen blanco y negro, con grises de apoyo y acentos mínimos justificados.
 
 - Verifica que el título principal tenga una composición centrada en escritorio y móvil, salvo dirección explícita distinta, y que la paleta no recurra a pasteles genéricos sin relación con la marca.
