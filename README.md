@@ -22,6 +22,20 @@ Combina principios de [LottieFiles motion-design-skill](https://github.com/Lotti
 
 Las capturas muestran el ejemplo real; son una referencia de calidad, no una plantilla obligatoria para todas las páginas.
 
+### futurista · mono
+
+**mono** muestra la dirección futurista de aram: blanco y negro, título centrado delante de las partículas y una portada limpia, sin divisor bajo el menú ni etiquetas de relleno. El ejemplo permite alternar entre orbital, onda y retícula, y pausar el movimiento.
+
+#### estructura orbital
+
+![mono: página futurista completa con título sobre partículas orbitales](docs/screenshots/aram-mono-page.jpg)
+
+#### estructura en onda
+
+![mono: la misma página con el campo de partículas en modo onda](docs/screenshots/aram-mono-wave.jpg)
+
+Capturas reales de la versión local correspondiente al sitio publicado. Las imágenes muestran estados del movimiento; no reproducen la animación.
+
 ## Criterio visual
 
 Portadas limpias: título sobre la animación, navegación discreta y controles útiles. Sin líneas divisorias decorativas bajo el menú, etiquetas superiores de relleno, coordenadas ficticias ni numeraciones innecesarias.
