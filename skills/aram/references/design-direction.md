@@ -45,6 +45,8 @@ Antes de entregar, revisa: ¿el título se lee con claridad?, ¿cada color tiene
 
 ## Fondos por contexto
 
+**Futurista:** prioriza blanco y negro como base dominante, con grises para superficies, bordes y profundidad. Tanto un fondo negro con texto blanco como el inverso son válidos. Expresa el carácter futurista mediante contraste, geometría y movimiento, sin depender de cian, violeta, neón ni pasteles. Usa acentos mínimos solo para estados o acciones que los necesiten, o por dirección explícita de marca.
+
 **Tecnología:** prioriza una capa abstracta de partículas o nodos conectados, inspirada visualmente en nanotecnología, sin presentarla como una simulación científica. Usa movimiento lento, opacidad baja y un área tranquila detrás de textos y controles. La profundidad puede venir del tamaño, la densidad y el desplazamiento, sin resplandores. El fondo puede ser claro u oscuro según el producto; no impongas una estética espacial a todas las aplicaciones.
 
 **Redes sociales:** da más presencia al color en el fondo general, áreas de navegación, comunidad y superficies secundarias. Elige una paleta pequeña con roles definidos y conserva superficies de lectura con contraste suficiente. Evita que todos los elementos sean blancos sobre gris, pero no asignes un color arbitrario a cada tarjeta. Mantén coherencia entre escritorio y móvil.

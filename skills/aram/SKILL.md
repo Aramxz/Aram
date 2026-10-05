@@ -4,7 +4,7 @@ description: Diseña y pule sitios web con dirección visual editorial, jerarqu�
 license: MIT
 metadata:
   author: Aramxz
-  version: "0.4.1"
+  version: "0.4.3"
 ---
 
 # Aram — diseño web con intención
@@ -29,6 +29,8 @@ Como punto de partida para un proyecto sin identidad, usa **editorial premium**:
 6. Revisa el resultado real en navegador y corrige problemas observables. Usa [revisión de entrega](references/quality-review.md) según el alcance. Informa qué verificaste y qué no pudiste comprobar.
 
 ## Criterios de Aram
+
+- En diseños futuristas, prioriza siempre blanco y negro como paleta principal, con grises para profundidad y jerarquía. Construye identidad con contraste, composición, materiales y movimiento; reserva acentos de color mínimos para una función concreta o una petición explícita, sin neón ni pasteles de relleno.
 
 - Prioriza el título principal centrado horizontalmente en la portada, con su bloque cerca del eje central de la composición, tanto en escritorio como en móvil. No uses por rutina un hero con título pegado a la izquierda. Conserva alineación de lectura en párrafos largos, formularios y datos.
 - Evita paletas pastel genéricas por defecto: lavanda, rosa empolvado, menta y melocotón combinados sin identidad. Prefiere neutros definidos y acentos con carácter, contraste legible y relación con la marca; no sustituyas pastel por neón. Respeta una paleta de marca o petición explícita.

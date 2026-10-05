@@ -4,6 +4,8 @@ Aplica las comprobaciones relevantes para lo modificado. No conviertas un ajuste
 
 ## Inspección visual y funcional
 
+- En una dirección futurista, comprueba que dominen blanco y negro, con grises de apoyo y acentos mínimos justificados.
+
 - Verifica que el título principal tenga una composición centrada en escritorio y móvil, salvo dirección explícita distinta, y que la paleta no recurra a pasteles genéricos sin relación con la marca.
 
 - Comprueba copy original en minúsculas y una firma de movimiento adecuada al proyecto. En galerías, verifica que los efectos difieran realmente en mecanismo y composición. No declares optimización medida sin evidencia.
