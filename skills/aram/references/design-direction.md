@@ -45,6 +45,8 @@ Antes de entregar, revisa: ¿el título se lee con claridad?, ¿cada color tiene
 
 ## Fondos por contexto
 
+**Portada animada:** integra título y animación en una misma escena, con el título centrado en primer plano. El fondo animado ocupa esa misma portada; no lo presentes como un bloque separado debajo del encabezado. Reserva una zona visual tranquila detrás del texto, controla densidad y contraste y evita que canvas o capas decorativas intercepten los controles. En móvil y movimiento reducido conserva esa composición.
+
 **Futurista:** prioriza blanco y negro como base dominante, con grises para superficies, bordes y profundidad. Tanto un fondo negro con texto blanco como el inverso son válidos. Expresa el carácter futurista mediante contraste, geometría y movimiento, sin depender de cian, violeta, neón ni pasteles. Usa acentos mínimos solo para estados o acciones que los necesiten, o por dirección explícita de marca.
 
 **Tecnología:** prioriza una capa abstracta de partículas o nodos conectados, inspirada visualmente en nanotecnología, sin presentarla como una simulación científica. Usa movimiento lento, opacidad baja y un área tranquila detrás de textos y controles. La profundidad puede venir del tamaño, la densidad y el desplazamiento, sin resplandores. El fondo puede ser claro u oscuro según el producto; no impongas una estética espacial a todas las aplicaciones.

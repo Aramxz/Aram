@@ -26,7 +26,7 @@ Las capturas muestran el ejemplo real; son una referencia de calidad, no una pla
 
 **Tipografía nítida, composición precisa y efectos con propósito.** Aram evita tipografía neón, glow decorativo, gradientes arbitrarios y combinaciones repetitivas de tarjetas de cristal, halos y sombras exageradas. La identidad nace del contenido, la tipografía y la dirección de arte.
 
-El título principal se prioriza centrado en la portada, también en móvil. Se evitan paletas pastel genéricas de lavanda, rosa empolvado, menta y melocotón: la dirección de color parte de neutros definidos y acentos propios de cada marca.
+El título principal se prioriza centrado en la portada, también en móvil. Cuando hay animación, el título queda delante de ella en la misma escena, con el movimiento integrado como fondo. Se evitan paletas pastel genéricas de lavanda, rosa empolvado, menta y melocotón: la dirección de color parte de neutros definidos y acentos propios de cada marca.
 
 En diseños futuristas, blanco y negro son la paleta principal, con grises para profundidad y acentos mínimos justificados.
 
@@ -127,7 +127,7 @@ Conserva el scroll nativo y prepara una versión sin desplazamientos
 para quienes prefieren movimiento reducido.
 ```
 
-## Versión actual · 0.4.3
+## Versión actual · 0.4.4
 
 - Dirección editorial premium como punto de partida ajustable.
 - Criterios de jerarquía, composición, contenido y recursos visuales.
