@@ -4,7 +4,7 @@ description: Diseña y pule sitios web con dirección visual editorial, jerarqu�
 license: MIT
 metadata:
   author: Aramxz
-  version: "0.2.0"
+  version: "0.3.0"
 ---
 
 # Aram — diseño web con intención
@@ -30,12 +30,15 @@ Como punto de partida para un proyecto sin identidad, usa **editorial premium**:
 
 ## Criterios de Aram
 
+- Incluye una animación breve del logo al abrir cada página: una sola entrada, sin bloquear contenido ni repetirla por cada render. Respeta movimiento reducido y muestra el logo estático si JavaScript falla. Consulta [dirección de movimiento](references/motion-direction.md#entrada-del-logo).
+- Mantén la misma familia tipográfica y estilo recto dentro del título. Evita alternar palabras en serif o cursiva como firma automática; crea jerarquía mediante tamaño, peso, composición y color.
+- En aplicaciones de tecnología, prioriza un fondo con movimiento abstracto sutil inspirado en nanotecnología: partículas, nodos o conexiones, sin glow ni neón y lejos de zonas de lectura. En redes sociales, usa más color en fondos y superficies con funciones claras. Consulta [fondos por contexto](references/design-direction.md#fondos-por-contexto).
 - Evita tipografía neón, letras con glow y resplandores decorativos. Prioriza formas tipográficas nítidas, buena composición y materiales visuales cuidados. No adoptes una estética futurista genérica por defecto.
 - Evita acabados de plantilla: gradientes multicolor arbitrarios, tarjetas de cristal repetidas, sombras exageradas y efectos acumulados sin relación con la marca. Usa los criterios concretos de [dirección visual](references/design-direction.md#acabado-visual-sin-efectos-de-relleno) para revisar el resultado.
 - El diseño debe tener una decisión reconocible: tipografía, fotografía, ilustración, composición o tratamiento de producto. No sustituyas identidad por una acumulación de efectos.
 - El contenido define las secciones. Evita repetir siempre hero, tres tarjetas y CTA cuando la historia requiere otra estructura.
 - Mantén legibles el mensaje, la navegación y la acción principal desde el primer estado. No bloquees la visita con un preloader decorativo.
-- El movimiento guía la atención o explica cambios. Capas ambientales, rebotes, parallax, cursor personalizado y scroll horizontal son opcionales.
+- El movimiento guía la atención o expresa identidad. La entrada del logo forma parte del estilo Aram; el fondo tecnológico sigue las pautas por contexto. Rebotes, parallax, cursor personalizado y scroll horizontal requieren una razón concreta.
 - Conserva scroll nativo salvo necesidad explícita. Ninguna interacción esencial depende solo de hover, arrastre o animación.
 - Respeta `prefers-reduced-motion` tanto en CSS como en JavaScript. El modo reducido conserva contenido, acciones y significado.
 - No inventes clientes, cifras, testimonios, premios ni resultados. Los datos de demostración se identifican como tales.

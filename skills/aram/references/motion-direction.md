@@ -2,6 +2,18 @@
 
 La emoción buscada y la tarea del usuario determinan el movimiento. Elige una curva predominante, unas pocas duraciones y un patrón de entrada; permite excepciones con un propósito claro.
 
+## Entrada del logo
+
+Incluye siempre una entrada breve del logo al abrir una página, salvo una instrucción explícita contraria o preferencia de movimiento reducido. Como punto inicial, usa 450–750 ms con desaceleración: ensamblaje sutil, giro pequeño del símbolo o desplazamiento corto con opacidad. Mantén el nombre reconocible y termina en su estado normal. No estires las letras ni conviertas el logo en un preloader que retrase la navegación.
+
+En aplicaciones con rutas, ejecútala una vez al entrar en la página o vista, no al cambiar cada estado. En galerías puede ofrecerse un botón para repetirla. Conserva el estado final como base de HTML/CSS y no dependas de una animación infinita para hacerlo visible.
+
+## Fondos tecnológicos
+
+El movimiento abstracto de partículas, nodos y conexiones aporta profundidad sin competir con la tarea. Usa un único bucle, limita densidad y resolución en móvil, y detén el trabajo cuando la pestaña o la vista no estén visibles. Si utilizas canvas, evita crear nuevos bucles en cada resize.
+
+Ofrece pausa para movimiento continuo. Con `prefers-reduced-motion`, muestra una composición estática y cancela el bucle; reacciona también a cambios de preferencia durante la sesión. Los controles y el texto deben funcionar sin canvas ni JavaScript.
+
 ## Paleta inicial ajustable
 
 | Uso | Duración orientativa | Carácter |

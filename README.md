@@ -62,7 +62,7 @@ Conserva el scroll nativo y prepara una versión sin desplazamientos
 para quienes prefieren movimiento reducido.
 ```
 
-## Versión actual · 0.2.0
+## Versión actual · 0.3.0
 
 - Dirección editorial premium como punto de partida ajustable.
 - Criterios de jerarquía, composición, contenido y recursos visuales.
@@ -70,6 +70,9 @@ para quienes prefieren movimiento reducido.
 - Ciclo de vida, limpieza, responsive y ScrollTrigger.
 - Revisión de interacción, móvil, teclado y movimiento reducido.
 - Criterios explícitos para evitar tipografía neón y decoración genérica.
+- Entrada animada del logo al abrir la página, con alternativa estática accesible.
+- Títulos de tipografía consistente, sin cambios gratuitos a cursivas.
+- Fondos tecnológicos con partículas y conexiones sutiles; más color en redes sociales.
 
 La skill aporta instrucciones reutilizables; no instala automáticamente GSAP, no incluye una web prediseñada y no garantiza puntuaciones de rendimiento. La evolución se basa en páginas reales y feedback concreto.
 

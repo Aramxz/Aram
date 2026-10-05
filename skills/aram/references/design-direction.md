@@ -16,6 +16,7 @@ Estas direcciones son puntos de partida; no vincules “premium” obligatoriame
 
 - **Jerarquía:** distingue título, argumento, evidencia y acción; permite que una pieza domine la escena.
 - **Tipografía:** establece roles y escala fluida. Valida los saltos de línea con el contenido real y zoom. No dependas de saltos manuales que rompan móvil.
+- **Títulos:** usa una familia consistente y estilo recto dentro de cada título. Evita el cambio de sans a serif/cursiva en una palabra por rutina. Reserva cursivas para énfasis editorial puntual o una petición explícita.
 - **Retícula:** alinea textos, bordes e imágenes con intención. Usa espacios consistentes y cambia de composición en pantallas pequeñas cuando sea necesario.
 - **Color:** define superficie, texto, acento y estados semánticos. Comprueba contraste en las combinaciones realmente usadas.
 - **Recursos:** selecciona imágenes pertinentes, recortes consistentes y licencias adecuadas. Si falta un recurso central, usa un sustituto honesto y comunícalo.
@@ -37,3 +38,11 @@ No uses como atajo visual el conjunto de fondo oscuro, gradientes violeta/cian, 
 Sustituye esos recursos por decisiones visibles: una familia tipográfica adecuada, pesos y tamaños bien relacionados, espacio preciso, alineaciones coherentes, fotografía o arte pertinente y contraste de escala. No añadas efectos para compensar una composición débil.
 
 Antes de entregar, revisa: ¿el título se lee con claridad?, ¿cada color tiene una función?, ¿las secciones expresan el contenido real?, ¿la página conserva identidad sin resplandores ni movimiento? Corrige las causas concretas antes de añadir decoración. Si el usuario pide explícitamente otra dirección, respeta ese encargo y mantén legibilidad y coherencia.
+
+## Fondos por contexto
+
+**Tecnología:** prioriza una capa abstracta de partículas o nodos conectados, inspirada visualmente en nanotecnología, sin presentarla como una simulación científica. Usa movimiento lento, opacidad baja y un área tranquila detrás de textos y controles. La profundidad puede venir del tamaño, la densidad y el desplazamiento, sin resplandores. El fondo puede ser claro u oscuro según el producto; no impongas una estética espacial a todas las aplicaciones.
+
+**Redes sociales:** da más presencia al color en el fondo general, áreas de navegación, comunidad y superficies secundarias. Elige una paleta pequeña con roles definidos y conserva superficies de lectura con contraste suficiente. Evita que todos los elementos sean blancos sobre gris, pero no asignes un color arbitrario a cada tarjeta. Mantén coherencia entre escritorio y móvil.
+
+**Otros sitios:** conserva su identidad propia. No extiendas partículas tecnológicas ni fondos sociales multicolor a categorías sin relación. Las instrucciones explícitas del proyecto prevalecen.
