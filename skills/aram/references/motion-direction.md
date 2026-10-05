@@ -4,6 +4,8 @@ La emoción buscada y la tarea del usuario determinan el movimiento. Elige una c
 
 ## Entrada del logo
 
+Evita repetir la misma receta entre propuestas. Selecciona un mecanismo adecuado al símbolo y al proyecto con [movimiento por categoría](motion-patterns.md); los valores siguientes son una base temporal, no una animación idéntica para todos.
+
 Incluye siempre una entrada breve del logo al abrir una página, salvo una instrucción explícita contraria o preferencia de movimiento reducido. Como punto inicial, usa 450–750 ms con desaceleración: ensamblaje sutil, giro pequeño del símbolo o desplazamiento corto con opacidad. Mantén el nombre reconocible y termina en su estado normal. No estires las letras ni conviertas el logo en un preloader que retrase la navegación.
 
 En aplicaciones con rutas, ejecútala una vez al entrar en la página o vista, no al cambiar cada estado. En galerías puede ofrecerse un botón para repetirla. Conserva el estado final como base de HTML/CSS y no dependas de una animación infinita para hacerlo visible.

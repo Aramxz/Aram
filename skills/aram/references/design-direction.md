@@ -1,5 +1,9 @@
 # Dirección visual
 
+## minúsculas como preferencia
+
+Redacta el copy original de la interfaz en minúsculas, incluidos títulos, botones y microetiquetas. No conviertas automáticamente contenido de usuarios, código, identificadores o marcas que requieran una grafía exacta. La jerarquía depende de composición, tamaño y peso, no de convertir etiquetas en mayúsculas. Usa [las referencias elegidas](inspiration.md) según la categoría del encargo.
+
 ## Elegir una dirección coherente
 
 Si ya existe marca, extrae sus reglas de los componentes y recursos reales. Si no existe, elige una dirección provisional según el producto:

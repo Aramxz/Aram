@@ -30,6 +30,46 @@ Los colores intensos siguen teniendo lugar: un acento naranja o azul bien utiliz
 
 ## Instalar
 
+### instalador aram · codex y claude code
+
+Requiere Node.js 20 o posterior y Git. Ejecuta en una terminal interactiva:
+
+```bash
+npx --yes --package=github:Aramxz/Aram aram
+```
+
+Verás tu autor y podrás elegir agente y alcance:
+
+```text
+aram
+diseño web + movimiento
+creado por Aramxz
+
+¿dónde instalar?
+  1. codex
+  2. claude code
+  3. ambos
+  0. salir
+
+¿en qué alcance?
+  1. global (todos tus proyectos)
+  2. proyecto actual
+  0. salir
+```
+
+También puedes indicar la selección directamente:
+
+```bash
+npx --yes --package=github:Aramxz/Aram aram --agent both --scope global
+npx --yes --package=github:Aramxz/Aram aram --agent claude-code --scope project
+```
+
+`--agent` acepta `codex`, `claude-code` o `both`. `--scope` acepta `global` o `project`. Añade `--dry-run` para ver la selección sin instalar. El instalador delega en `skills` 1.7.0 y no ejecuta comandos de shell construidos con entradas del usuario. Instalar de nuevo puede actualizar la skill existente; conserva aparte tus cambios personales antes de actualizar.
+
+El paquete se obtiene de GitHub; no se ha publicado un paquete npm llamado `aram`. El nombre mostrado es **Aramxz**. En terminales no interactivas se requieren ambas opciones, sin elegir agentes silenciosamente.
+
+### alternativa: cli estándar de skills
+
 ```bash
 npx skills add Aramxz/Aram --skill aram
 ```
@@ -40,7 +80,22 @@ Para instalar globalmente en Codex:
 npx skills add Aramxz/Aram --skill aram --agent codex --global
 ```
 
-El comando usa `npx skills add`, seguido del repositorio. No requiere publicar un paquete npm llamado Aram.
+Para Claude Code, usa `--agent claude-code`; para ambos, `--agent codex claude-code`. La selección interactiva del CLI estándar depende de su detección de entorno. Este comando conserva la interfaz propia de `skills`, sin el banner personalizado de Aram.
+
+La misma carpeta `skills/aram` funciona en ambos agentes. El archivo `agents/openai.yaml` aporta metadatos de Codex y no es necesario para que Claude Code lea `SKILL.md`.
+
+## referencias por categoría
+
+| uso | inspiración |
+| --- | --- |
+| páginas creativas | [by experience](https://www.byexperience.co.uk/) |
+| tiendas | [humanrace](https://humanrace.com/) |
+| futurista | [ilab](https://www.ilabsolutions.it/) |
+| presentación de proyectos | [smartcafe](https://smart-cafepage.vercel.app/) |
+
+Movimiento: [scroll](https://gsap.com/scroll/), [svg](https://gsap.com/svg/), [texto](https://gsap.com/text/) e [interacciones](https://gsap.com/ui/) de GSAP. Son referencias de inspiración, no plantillas para copiar ni marcas afiliadas.
+
+Cada categoría debe tener una firma de animación propia. Aram prioriza minúsculas en el copy original, conservando grafías obligatorias y datos del usuario. El rendimiento se comprueba con mediciones cuando se afirman mejoras, no por usar una biblioteca.
 
 ## Usar
 
@@ -62,7 +117,7 @@ Conserva el scroll nativo y prepara una versión sin desplazamientos
 para quienes prefieren movimiento reducido.
 ```
 
-## Versión actual · 0.3.0
+## Versión actual · 0.4.0
 
 - Dirección editorial premium como punto de partida ajustable.
 - Criterios de jerarquía, composición, contenido y recursos visuales.
@@ -73,6 +128,9 @@ para quienes prefieren movimiento reducido.
 - Entrada animada del logo al abrir la página, con alternativa estática accesible.
 - Títulos de tipografía consistente, sin cambios gratuitos a cursivas.
 - Fondos tecnológicos con partículas y conexiones sutiles; más color en redes sociales.
+- Animaciones diferenciadas de scroll, SVG, texto e interfaz según cada proyecto.
+- Copy original en minúsculas y referencias seleccionadas por categoría.
+- Instalador con firma Aramxz y selección de Codex, Claude Code o ambos.
 
 La skill aporta instrucciones reutilizables; no instala automáticamente GSAP, no incluye una web prediseñada y no garantiza puntuaciones de rendimiento. La evolución se basa en páginas reales y feedback concreto.
 

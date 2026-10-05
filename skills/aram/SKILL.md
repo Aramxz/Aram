@@ -4,7 +4,7 @@ description: Diseña y pule sitios web con dirección visual editorial, jerarqu�
 license: MIT
 metadata:
   author: Aramxz
-  version: "0.3.0"
+  version: "0.4.0"
 ---
 
 # Aram — diseño web con intención
@@ -30,6 +30,8 @@ Como punto de partida para un proyecto sin identidad, usa **editorial premium**:
 
 ## Criterios de Aram
 
+- Prioriza minúsculas en el texto original de la interfaz: títulos, navegación, botones y etiquetas. No fuerces `text-transform: lowercase` global ni alteres nombres legales, marcas con grafía obligatoria, siglas técnicas, código, contraseñas o contenido aportado por usuarios.
+- Diseña una firma de movimiento diferente para cada proyecto; no reutilices la misma entrada de logo y fade en todas las categorías. Selecciona scroll, SVG, texto o interacciones según su función y presupuesto. Consulta [movimiento por categoría](references/motion-patterns.md) y [referencias de inspiración](references/inspiration.md).
 - Incluye una animación breve del logo al abrir cada página: una sola entrada, sin bloquear contenido ni repetirla por cada render. Respeta movimiento reducido y muestra el logo estático si JavaScript falla. Consulta [dirección de movimiento](references/motion-direction.md#entrada-del-logo).
 - Mantén la misma familia tipográfica y estilo recto dentro del título. Evita alternar palabras en serif o cursiva como firma automática; crea jerarquía mediante tamaño, peso, composición y color.
 - En aplicaciones de tecnología, prioriza un fondo con movimiento abstracto sutil inspirado en nanotecnología: partículas, nodos o conexiones, sin glow ni neón y lejos de zonas de lectura. En redes sociales, usa más color en fondos y superficies con funciones claras. Consulta [fondos por contexto](references/design-direction.md#fondos-por-contexto).
