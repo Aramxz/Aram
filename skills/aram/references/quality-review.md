@@ -1,0 +1,19 @@
+# Revisión de entrega
+
+Aplica las comprobaciones relevantes para lo modificado. No conviertas un ajuste visual pequeño en una auditoría completa.
+
+## Inspección visual y funcional
+
+- Revisa la página real a un ancho móvil y uno de escritorio, y cerca de los breakpoints modificados. Busca desbordamiento, recortes, saltos tipográficos y espacios incoherentes.
+- Comprueba que la acción principal, enlaces, menú y controles involucrados funcionan. Incluye estados vacíos, carga o error si forman parte del cambio.
+- Usa teclado y foco visible; revisa que el orden de lectura sea coherente y que overlays no dejen el foco perdido.
+- Activa movimiento reducido y confirma que contenido y acciones siguen disponibles. Prueba también el estado inicial y, cuando sea viable, el fallo de recursos animados.
+- En escenas GSAP prueba resize, scroll inverso, activaciones repetidas y salida/regreso de ruta. Busca triggers duplicados, estilos residuales y errores de consola.
+- Comprueba que imágenes y fuentes no desplazan inesperadamente la composición. Optimiza los recursos que realmente dominan la carga.
+- Ejecuta los checks existentes pertinentes. No declares validación visual por el solo hecho de que el build compile.
+
+## Evidencia y pulido
+
+Una captura permite revisar composición; la interacción real permite revisar ritmo y comportamiento. Si no dispones de navegador o medición, explica la limitación sin inventar resultados.
+
+Prioriza fallos funcionales o contenido inaccesible, luego composición y legibilidad, después refinamiento del movimiento. Entrega un resumen de lo observado y corregido; no afirmes puntuaciones Lighthouse, fps o cumplimiento formal sin pruebas.

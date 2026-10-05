@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aram · Web Design & Motion"
+  short_description: "Diseño web editorial y movimiento con GSAP"
+  default_prompt: "Usa $aram para diseñar o pulir esta página con identidad visual propia y animaciones intencionales."
